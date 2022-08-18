@@ -9,7 +9,7 @@ interface Props {
   onSubmit: (values: PatientFormValues) => void;
   error?: string;
 }
-
+//Done 9.9
 const AddPatientModal = ({ modalOpen, onClose, onSubmit, error }: Props) => (
   <Dialog fullWidth={true} open={modalOpen} onClose={() => onClose()}>
     <DialogTitle>Add a new patient</DialogTitle>
